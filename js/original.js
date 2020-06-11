@@ -49,7 +49,7 @@ function rememberMyFilms() {
     }
 }
 
-// rememberMyFilms();
+rememberMyFilms();
 
 function delectPersonalLevel() {
     if (personalMovieDB.count < 10) {
@@ -63,7 +63,7 @@ function delectPersonalLevel() {
     }
 }
 
-// delectPersonalLevel();
+delectPersonalLevel();
 
 function showMyDB() {
     if (!personalMovieDB.privat) {
